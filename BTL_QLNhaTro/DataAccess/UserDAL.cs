@@ -107,7 +107,7 @@ namespace BTL_QLNhaTro.DataAccess
             }
         }
 
-        public bool RegisterUser(User user)
+        public bool RegisterUser(Customer user)
         {
             using (SqlConnection cnn = new SqlConnection(_connectionString))
             {

@@ -47,7 +47,7 @@ namespace BTL_QLNhaTro
                 return;
             }
 
-            User newUser = new User
+            Customer newUser = new Customer
             {
                 FullName = txtFullName.Text,
                 Gender = rdoMale.Checked ? 1 : 0,

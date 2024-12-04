@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\btl_qlnhatro\\presentation\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|solutionrelative:btl_qlnhatro\\presentation\\frmdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|d:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\btl_qlnhatro\\btl_qlnhatro\\businesslogic\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|solutionrelative:btl_qlnhatro\\businesslogic\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|d:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\btl_qlnhatro\\btl_qlnhatro\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|solutionrelative:btl_qlnhatro\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|d:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\btl_qlnhatro\\btl_qlnhatro\\dataaccess\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|solutionrelative:btl_qlnhatro\\dataaccess\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|d:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\btl_qlnhatro\\btl_qlnhatro\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|solutionrelative:btl_qlnhatro\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\btl_qlnhatro\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|solutionrelative:btl_qlnhatro\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\btl_qlnhatro\\models\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|solutionrelative:btl_qlnhatro\\models\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\btl_qlnhatro\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23880727-0511-45FC-BAA7-9D20B102874D}|BTL_QLNhaTro\\BTL_QLNhaTro.csproj|solutionrelative:btl_qlnhatro\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +55,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "BTL_QLNhaTro\\Models\\Customer.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\Customer.cs",
+              "RelativeToolTip": "BTL_QLNhaTro\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:48:38.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\Owner.cs",
+              "RelativeDocumentMoniker": "BTL_QLNhaTro\\Models\\Owner.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\Owner.cs",
+              "RelativeToolTip": "BTL_QLNhaTro\\Models\\Owner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:43:13.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\BusinessLogic\\UserBLL.cs",
+              "RelativeDocumentMoniker": "BTL_QLNhaTro\\BusinessLogic\\UserBLL.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\BusinessLogic\\UserBLL.cs",
+              "RelativeToolTip": "BTL_QLNhaTro\\BusinessLogic\\UserBLL.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAApwDoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:34:55.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\DataAccess\\UserDAL.cs",
+              "RelativeDocumentMoniker": "BTL_QLNhaTro\\DataAccess\\UserDAL.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\DataAccess\\UserDAL.cs",
+              "RelativeToolTip": "BTL_QLNhaTro\\DataAccess\\UserDAL.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAIAwwHsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:13:08.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmDangKy.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Presentation\\frmDangKy.cs",
+              "RelativeDocumentMoniker": "BTL_QLNhaTro\\Presentation\\frmDangKy.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Presentation\\frmDangKy.cs",
+              "RelativeToolTip": "BTL_QLNhaTro\\Presentation\\frmDangKy.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAkwDQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:11:43.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "BTL_QLNhaTro\\Models\\Room.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\Room.cs",
+              "RelativeToolTip": "BTL_QLNhaTro\\Models\\Room.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:11:36.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BTL_QLNhaTro\\Models\\User.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\User.cs",
+              "RelativeToolTip": "BTL_QLNhaTro\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:11:31.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Building.cs",
+              "DocumentMoniker": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\Building.cs",
+              "RelativeDocumentMoniker": "BTL_QLNhaTro\\Models\\Building.cs",
+              "ToolTip": "D:\\t\u00E0i li\u1EC7u h\u1ECDc t\u1EADp\\c#\\BTL_QLNhaTro\\BTL_QLNhaTro\\Models\\Building.cs",
+              "RelativeToolTip": "BTL_QLNhaTro\\Models\\Building.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:11:27.761Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -81,6 +81,8 @@
     <Compile Include="DataAccess\BuildingDAL.cs" />
     <Compile Include="DataAccess\RoomDetailDAL.cs" />
     <Compile Include="DataAccess\UserDAL.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Owner.cs" />
     <Compile Include="Presentation\frmTaiSan.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -56,7 +56,7 @@ namespace BTL_QLNhaTro.BusinessLogic
             return _userDAL.CheckPhoneExists(phone);
         }
 
-        public bool RegisterUser(User user)
+        public bool RegisterUser(Customer user)
         {
             return _userDAL.RegisterUser(user);
         }
