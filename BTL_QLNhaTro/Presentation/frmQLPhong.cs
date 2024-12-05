@@ -93,12 +93,12 @@ namespace BTL_QLNhaTro
                 {
                     MessageBox.Show("Sửa Thanh cong!");
                     dgvPhong.DataSource = xuLyData.Lay_DataTable(sqlCommand,"vv_Phong");
+                    lamMoi();
                 }
                 else
                 {
                     MessageBox.Show("Sửa khong thanh cong!");
-                }
-                lamMoi();
+                }  
             }
             
         }
@@ -125,6 +125,7 @@ namespace BTL_QLNhaTro
         private int ThemPhong(string maToa,string tenPhong, string tang, string tienThu, string dienTich, string soNguoiTD, string tinhTrang)
         {
             return _roomDetailBLL.addRoom(maToa, tenPhong, tang, tienThu, dienTich, soNguoiTD, tinhTrang);
+            
         }
         private void btnThem_Click(object sender, EventArgs e)
         {
@@ -146,6 +147,7 @@ namespace BTL_QLNhaTro
                 if (kq > 0)
                 {
                     dgvPhong.DataSource = xuLyData.Lay_DataTable(sqlCommand,"vv_Phong");
+                    MessageBox.Show("Them thanh cong");
                     lamMoi();
                 }
                 else
