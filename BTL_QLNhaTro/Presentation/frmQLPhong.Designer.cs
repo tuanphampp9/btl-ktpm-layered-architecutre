@@ -64,6 +64,7 @@ namespace BTL_QLNhaTro
             this.txtMaPhong = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.eprQLPhong = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnXoa_Click = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eprQLPhong)).BeginInit();
             this.SuspendLayout();
@@ -71,7 +72,7 @@ namespace BTL_QLNhaTro
             // btnTim
             // 
             this.btnTim.Location = new System.Drawing.Point(869, 245);
-            this.btnTim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(4);
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(100, 36);
             this.btnTim.TabIndex = 82;
@@ -82,7 +83,7 @@ namespace BTL_QLNhaTro
             // btnLamMoi
             // 
             this.btnLamMoi.Location = new System.Drawing.Point(627, 245);
-            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(4);
             this.btnLamMoi.Name = "btnLamMoi";
             this.btnLamMoi.Size = new System.Drawing.Size(100, 36);
             this.btnLamMoi.TabIndex = 81;
@@ -93,7 +94,7 @@ namespace BTL_QLNhaTro
             // btnSua
             // 
             this.btnSua.Location = new System.Drawing.Point(140, 245);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(108, 36);
             this.btnSua.TabIndex = 79;
@@ -104,7 +105,7 @@ namespace BTL_QLNhaTro
             // btnThem
             // 
             this.btnThem.Location = new System.Drawing.Point(391, 245);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(93, 36);
             this.btnThem.TabIndex = 78;
@@ -130,7 +131,7 @@ namespace BTL_QLNhaTro
             "Đã thuê",
             "Còn trống"});
             this.cbxTinhTrang.Location = new System.Drawing.Point(711, 110);
-            this.cbxTinhTrang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbxTinhTrang.Margin = new System.Windows.Forms.Padding(4);
             this.cbxTinhTrang.Name = "cbxTinhTrang";
             this.cbxTinhTrang.Size = new System.Drawing.Size(160, 24);
             this.cbxTinhTrang.TabIndex = 76;
@@ -139,7 +140,7 @@ namespace BTL_QLNhaTro
             // 
             this.cbxToaNha.FormattingEnabled = true;
             this.cbxToaNha.Location = new System.Drawing.Point(711, 76);
-            this.cbxToaNha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbxToaNha.Margin = new System.Windows.Forms.Padding(4);
             this.cbxToaNha.Name = "cbxToaNha";
             this.cbxToaNha.Size = new System.Drawing.Size(160, 24);
             this.cbxToaNha.TabIndex = 75;
@@ -147,7 +148,7 @@ namespace BTL_QLNhaTro
             // txtTienThue
             // 
             this.txtTienThue.Location = new System.Drawing.Point(288, 192);
-            this.txtTienThue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTienThue.Margin = new System.Windows.Forms.Padding(4);
             this.txtTienThue.Name = "txtTienThue";
             this.txtTienThue.Size = new System.Drawing.Size(132, 22);
             this.txtTienThue.TabIndex = 74;
@@ -159,14 +160,14 @@ namespace BTL_QLNhaTro
             this.label8.Location = new System.Drawing.Point(189, 194);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(76, 17);
+            this.label8.Size = new System.Drawing.Size(68, 16);
             this.label8.TabIndex = 73;
             this.label8.Text = "Tiên thuê: ";
             // 
             // txtSoNguoi
             // 
             this.txtSoNguoi.Location = new System.Drawing.Point(711, 186);
-            this.txtSoNguoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoNguoi.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoNguoi.Name = "txtSoNguoi";
             this.txtSoNguoi.Size = new System.Drawing.Size(132, 22);
             this.txtSoNguoi.TabIndex = 72;
@@ -175,7 +176,7 @@ namespace BTL_QLNhaTro
             // txtDienTich
             // 
             this.txtDienTich.Location = new System.Drawing.Point(711, 148);
-            this.txtDienTich.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDienTich.Margin = new System.Windows.Forms.Padding(4);
             this.txtDienTich.Name = "txtDienTich";
             this.txtDienTich.Size = new System.Drawing.Size(132, 22);
             this.txtDienTich.TabIndex = 71;
@@ -184,7 +185,7 @@ namespace BTL_QLNhaTro
             // txtTang
             // 
             this.txtTang.Location = new System.Drawing.Point(288, 155);
-            this.txtTang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTang.Margin = new System.Windows.Forms.Padding(4);
             this.txtTang.Name = "txtTang";
             this.txtTang.Size = new System.Drawing.Size(132, 22);
             this.txtTang.TabIndex = 70;
@@ -193,7 +194,7 @@ namespace BTL_QLNhaTro
             // txtPhong
             // 
             this.txtPhong.Location = new System.Drawing.Point(288, 119);
-            this.txtPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPhong.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhong.Name = "txtPhong";
             this.txtPhong.Size = new System.Drawing.Size(132, 22);
             this.txtPhong.TabIndex = 69;
@@ -204,7 +205,7 @@ namespace BTL_QLNhaTro
             this.label6.Location = new System.Drawing.Point(579, 113);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(81, 17);
+            this.label6.Size = new System.Drawing.Size(72, 16);
             this.label6.TabIndex = 68;
             this.label6.Text = "Tình trạng: ";
             // 
@@ -214,7 +215,7 @@ namespace BTL_QLNhaTro
             this.label5.Location = new System.Drawing.Point(579, 194);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 17);
+            this.label5.Size = new System.Drawing.Size(102, 16);
             this.label5.TabIndex = 67;
             this.label5.Text = "Số người tối đa: ";
             // 
@@ -224,7 +225,7 @@ namespace BTL_QLNhaTro
             this.label4.Location = new System.Drawing.Point(579, 154);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 17);
+            this.label4.Size = new System.Drawing.Size(64, 16);
             this.label4.TabIndex = 66;
             this.label4.Text = "Diện tích: ";
             // 
@@ -234,7 +235,7 @@ namespace BTL_QLNhaTro
             this.label7.Location = new System.Drawing.Point(189, 158);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(49, 17);
+            this.label7.Size = new System.Drawing.Size(45, 16);
             this.label7.TabIndex = 65;
             this.label7.Text = "Tầng: ";
             // 
@@ -244,7 +245,7 @@ namespace BTL_QLNhaTro
             this.label9.Location = new System.Drawing.Point(189, 121);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 17);
+            this.label9.Size = new System.Drawing.Size(52, 16);
             this.label9.TabIndex = 64;
             this.label9.Text = "Phòng: ";
             // 
@@ -254,7 +255,7 @@ namespace BTL_QLNhaTro
             this.label10.Location = new System.Drawing.Point(579, 80);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 17);
+            this.label10.Size = new System.Drawing.Size(63, 16);
             this.label10.TabIndex = 63;
             this.label10.Text = "Tào nhà: ";
             // 
@@ -286,7 +287,7 @@ namespace BTL_QLNhaTro
             this.clMaChuToa});
             this.dgvPhong.GridColor = System.Drawing.SystemColors.Control;
             this.dgvPhong.Location = new System.Drawing.Point(16, 309);
-            this.dgvPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvPhong.Margin = new System.Windows.Forms.Padding(4);
             this.dgvPhong.Name = "dgvPhong";
             this.dgvPhong.ReadOnly = true;
             this.dgvPhong.RowHeadersWidth = 51;
@@ -385,7 +386,7 @@ namespace BTL_QLNhaTro
             // txtMaPhong
             // 
             this.txtMaPhong.Location = new System.Drawing.Point(288, 80);
-            this.txtMaPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaPhong.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaPhong.Name = "txtMaPhong";
             this.txtMaPhong.ReadOnly = true;
             this.txtMaPhong.Size = new System.Drawing.Size(132, 22);
@@ -397,7 +398,7 @@ namespace BTL_QLNhaTro
             this.label2.Location = new System.Drawing.Point(189, 86);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 17);
+            this.label2.Size = new System.Drawing.Size(73, 16);
             this.label2.TabIndex = 83;
             this.label2.Text = "Mã phòng: ";
             // 
@@ -405,11 +406,23 @@ namespace BTL_QLNhaTro
             // 
             this.eprQLPhong.ContainerControl = this;
             // 
+            // btnXoa_Click
+            // 
+            this.btnXoa_Click.Location = new System.Drawing.Point(943, 70);
+            this.btnXoa_Click.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXoa_Click.Name = "btnXoa_Click";
+            this.btnXoa_Click.Size = new System.Drawing.Size(108, 36);
+            this.btnXoa_Click.TabIndex = 85;
+            this.btnXoa_Click.Text = "Xoá";
+            this.btnXoa_Click.UseVisualStyleBackColor = true;
+            this.btnXoa_Click.Click += new System.EventHandler(this.btnXoa_Click_Click);
+            // 
             // frmQLPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.btnXoa_Click);
             this.Controls.Add(this.txtMaPhong);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnTim);
@@ -432,7 +445,7 @@ namespace BTL_QLNhaTro
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.dgvPhong);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmQLPhong";
             this.Text = "frmQLPhong";
             this.Load += new System.EventHandler(this.frmQLPhong_Load);
@@ -478,5 +491,6 @@ namespace BTL_QLNhaTro
         private System.Windows.Forms.DataGridViewButtonColumn clChiTiet;
         private System.Windows.Forms.DataGridViewTextBoxColumn clMaChuToa;
         private System.Windows.Forms.ErrorProvider eprQLPhong;
+        private System.Windows.Forms.Button btnXoa_Click;
     }
 }

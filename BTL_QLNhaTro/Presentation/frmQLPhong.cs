@@ -225,5 +225,33 @@ namespace BTL_QLNhaTro
                 return;
             }
         }
+
+        public int XoaPhong()
+        {
+            return _roomDetailBLL.DeleteRoom(int.Parse(cbxToaNha.SelectedValue.ToString()), txtMaPhong.Text);
+        }
+
+        private void btnXoa_Click_Click(object sender, EventArgs e)
+        {
+            if (viTriChon < 0)
+            {
+                MessageBox.Show("Bạn chưa chọn phòng cần xoá!");
+                return;
+            }
+            else
+            {
+                int kq = XoaPhong();
+                if (kq > 0)
+                {
+                    MessageBox.Show("Xoá Thanh cong!");
+                    dgvPhong.DataSource = xuLyData.Lay_DataTable(sqlCommand, "vv_Phong");
+                    lamMoi();
+                }
+                else
+                {
+                    MessageBox.Show("Xoá khong thanh cong!");
+                }
+            }
+        }
     }
 }

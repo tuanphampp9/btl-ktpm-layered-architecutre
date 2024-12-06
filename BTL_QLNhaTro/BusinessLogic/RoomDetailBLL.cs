@@ -29,6 +29,8 @@ namespace BTL_QLNhaTro.BusinessLogic
 
         public int addRoom(string maToa, string tenPhong, string tang, string tienThu, string dienTich, string soNguoiTD, string tinhTrang) => _repository.addRoom(maToa, tenPhong, tang, tienThu, dienTich, soNguoiTD, tinhTrang);
 
+        public int DeleteRoom(int buildingId, string roomId) => _repository.DeleteRoom(buildingId, roomId);
+
         public string buildQuerySearchRoom(string tenPhong, string tenToa, string tang, string tienThu, string dienTich, string tinhTrang, int userId) => _repository.buildQuerySearchRoom(tenPhong, tenToa, tang, tienThu, dienTich, tinhTrang, userId);
     }
 }

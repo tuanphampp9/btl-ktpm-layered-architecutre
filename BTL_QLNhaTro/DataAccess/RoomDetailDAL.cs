@@ -187,5 +187,21 @@ namespace BTL_QLNhaTro.DataAccess
             }
             return sqlText;
         }
+
+        public int DeleteRoom(int buildingId, string roomId)
+        {
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    string sqlDelete = "DELETE FROM tblPhong WHERE PK_MaPhong='" + roomId + "'";
+                    cmd.CommandText = sqlDelete;
+                    conn.Open();
+                    int i = cmd.ExecuteNonQuery();
+                    conn.Close();
+                    return i;
+                }
+            }
+        }
     }
 }
